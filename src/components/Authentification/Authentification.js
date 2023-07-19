@@ -22,6 +22,10 @@ function Authentification() {
             </div>
 
             <div className={classes.inputBox}>
+              <input type="text" required /> <i>ID</i>
+            </div>
+
+            <div className={classes.inputBox}>
               <input type="email" required /> <i>E-mail</i>
             </div>
             <div className={classes.inputBox}>

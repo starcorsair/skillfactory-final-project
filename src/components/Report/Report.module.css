@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  background-image: url("/public/images/2104434-8bc34a.svg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.repotfield {
+  position: absolute;
+  width: 500px; /*с 400 на 500*/
+
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+}
+.repotfield .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+section .repotfield .content h2 {
+  font-size: 2em;
+  color: #0f0;
+}
+section .repotfield .content .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section .repotfield .content .form .inputBox {
+  position: relative;
+  width: 100%;
+}
+section .repotfield .content .form .inputBox input {
+  position: relative;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  padding: 25px 10px 7.5px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+}
+section .repotfield .content .form .inputBox i {
+  position: absolute;
+  left: 0;
+  padding: 15px 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.repotfield .content .form .inputBox input:focus ~ i,
+.repotfield .content .form .inputBox input:valid ~ i {
+  transform: translateY(-7.5px);
+  font-size: 0.8em;
+  color: #fff;
+}
+.repotfield .content .form .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.repotfield .content .form .links a {
+  color: #fff;
+  text-decoration: none;
+}
+.repotfield .content .form .links a:nth-child(2) {
+  color: #0f0;
+  font-weight: 600;
+}
+.repotfield .content .form .inputBox input[type="submit"] {
+  padding: 10px;
+  background: #0f0;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+input[type="submit"]:active {
+  opacity: 0.6;
+}
+@media (max-width: 900px) {
+  section span {
+    width: calc(10vw - 2px);
+    height: calc(10vw - 2px);
+  }
+}
+@media (max-width: 600px) {
+  section span {
+    width: calc(20vw - 2px);
+    height: calc(20vw - 2px);
+  }
+}

@@ -1,10 +1,10 @@
 import "./App.css";
-import Authentification from "./components/Authentification/Authentification";
+import Report from "./components/Report/Report";
 
 function App() {
   return (
     <>
-      <Authentification />
+      <Report />
     </>
   );
 }
