@@ -1,10 +1,10 @@
 import "./App.css";
-import Report from "./components/Report/Report";
+import Employees from "./components/Employees/Employees";
 
 function App() {
   return (
     <>
-      <Report />
+      <Employees />
     </>
   );
 }
