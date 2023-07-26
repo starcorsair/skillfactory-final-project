@@ -1,12 +1,13 @@
 .employees_part {
-  background-color: black;
+  background: #dad7cd;
+  background-image: url("/public/images/iconizer-2104434-8bc34a.svg");
   position: relative;
   display: flex;
   height: 100vh;
 }
 
 .employees_page {
-  background-color: #141414;
+  background-color: #344e41;
   margin: 0px;
 }
 
@@ -48,6 +49,7 @@
   margin-top: 5vh;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  color: #344e41;
 }
 
 .list {
@@ -63,12 +65,12 @@
   width: 10vw;
   margin-top: 5vh;
   padding: 12px 10px;
-  background-color: #00ff00;
+  background-color: #71a870;
   border: none;
   border-radius: 5px;
 }
 .button_create:hover {
-  background-color: #00ff00;
+  background-color: #5d925c;
   cursor: pointer;
 }
 

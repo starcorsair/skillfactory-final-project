@@ -5,6 +5,30 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background: #dad7cd;
+  background-image: url("/public/images/iconizer-2104434-8bc34a.svg");
+}
+.select {
+  height: 4vh;
+  width: 15vw;
+  background-color: #344e41;
+  color: #dad7cd;
+  border: none;
+  border-radius: 2px;
+  margin-top: 2vh;
+}
+
+@media (max-width: 991.98px) {
+  .select {
+    width: 100%;
+  }
+  .select_list {
+    width: 90%;
+  }
+}
+
+/*
 section {
   position: absolute;
   width: 100%;
@@ -12,23 +36,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
-  background-image: url("/public/images/2104434-8bc34a.svg");
-  background-size: cover;
-  overflow-x: hidden;
 }
 
 .repotfield {
   position: absolute;
-  width: 500px; /*с 400 на 500*/
-
-  background: #222;
+  width: 400px; 
+  background: #344e41;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 20px;
   border-radius: 4px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
 }
@@ -39,17 +56,17 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 section .repotfield .content h2 {
   font-size: 2em;
-  color: #0f0;
+  color: #71a870;
 }
 section .repotfield .content .form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
 }
 section .repotfield .content .form .inputBox {
   position: relative;
@@ -58,7 +75,7 @@ section .repotfield .content .form .inputBox {
 section .repotfield .content .form .inputBox input {
   position: relative;
   width: 100%;
-  background: #333;
+  background: #19251f;
   border: none;
   outline: none;
   padding: 25px 10px 7.5px;
@@ -93,12 +110,12 @@ section .repotfield .content .form .inputBox i {
   text-decoration: none;
 }
 .repotfield .content .form .links a:nth-child(2) {
-  color: #0f0;
+  color: #71a870;
   font-weight: 600;
 }
 .repotfield .content .form .inputBox input[type="submit"] {
   padding: 10px;
-  background: #0f0;
+  background: #71a870;
   color: #000;
   font-weight: 500;
   font-size: 1.2em;
@@ -119,4 +136,4 @@ input[type="submit"]:active {
     width: calc(20vw - 2px);
     height: calc(20vw - 2px);
   }
-}
+} */

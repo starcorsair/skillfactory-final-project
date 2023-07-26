@@ -1,5 +1,4 @@
-/*
-   .list_item {
+.list_item {
   list-style-type: none;
   margin-top: 20px;
 }
@@ -10,11 +9,11 @@
   margin-top: 5px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #344e41;
 }
 
 .button_link:hover {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #2d4237;
 }
 
 .link {
@@ -28,5 +27,3 @@
     margin-left: 10vw;
   }
 }
- 
-    */
