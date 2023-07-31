@@ -1,25 +1,54 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+ul {
+  list-style: none;
+}
 body {
   background: #dad7cd;
 }
 
 .app {
-  width: 100%;
-  height: 100%;
-  background-image: url("rectangle51.svg");
-  background-size: 30%;
-  background-position: right;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("iconizer-rectangle51.svg");
+  background-size: 450px 100%; /* from vh to %*/
+  background-position: 70% 0; /*from 70 to 100*/
   background-repeat: no-repeat;
 }
+
 .picture {
+  position: absolute;
+  z-index: 0;
   background-image: url("bike22.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  width: 500px; /*500*/
+  height: 300px; /*300*/
+  left: 36%; /*36*/
+  top: 36%;
+}
+
+header {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+/*.main {
+  width: 100vw;
+  background-image: url("bike22.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 70% 0;
   width: 500px;
   height: 300px;
 }
+*/
