@@ -9,39 +9,102 @@ ul {
 }
 body {
   background: #dad7cd;
+  background-image: url("iconizer-rectangle51.svg");
+  background-size: 600px auto; /* from vh to %*/
+  background-position: 100% 0; /*from 70 to 100*/
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
 .app {
   position: relative;
+  /*
   width: 100vw;
   height: 100vh;
   background-image: url("iconizer-rectangle51.svg");
-  background-size: 450px 100%; /* from vh to %*/
-  background-position: 70% 0; /*from 70 to 100*/
+  background-size: 50%; from vh to %
+  background-position: 100% 0; from 70 to 100
   background-repeat: no-repeat;
+  overflow-x: hidden;*/
 }
 
 .picture {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   background-image: url("bike22.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 500px; /*500*/
-  height: 300px; /*300*/
+  width: 700px; /*500*/
+  height: 500px; /*300*/
   left: 36%; /*36*/
-  top: 36%;
+  top: 38%;
 }
 
 header {
-  padding-top: 50px;
-  padding-left: 50px;
+  display: flex;
+}
+
+.nav_panel {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.list_page {
+  display: flex;
+  gap: 15px;
 }
 
 h1 {
-  font-size: 2.5em;
+  margin-top: 50px;
+  margin-left: 50px;
+
+  font-size: 3em;
 }
 
+.link_page {
+  color: black;
+  font-size: 20px;
+}
+
+.link_page:hover {
+  color: #3a5a40;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.text_main {
+  color: #344e41;
+  width: 400px;
+  margin-left: 35px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.text_main:nth-child(2) {
+  margin-left: 50px;
+}
+
+.forms_main {
+  margin-left: 30px;
+}
+
+/* не забыть мобильную версию - вставить зеленый велосипед на фон в body или в хидер*/
+
+/*
+footer {
+  margin-top: 50px;
+}
+*/
+/*.nav_panel_footer {
+  display: flex;
+}
+*/
 /*.main {
   width: 100vw;
   background-image: url("bike22.svg");
