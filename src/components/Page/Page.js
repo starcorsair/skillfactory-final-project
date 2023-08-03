@@ -33,12 +33,17 @@ function Page() {
           the ultimate fresh air riding experience!
         </p>
         <div className={classes.forms_main}>
-          <h3>Do you have a problem with a missing bike?</h3>
-          <p>Write to us:</p>
-          <p>тут должен быть репорт</p>
-          <h3>Do you want to join our team?</h3>
-          <p>Sign up!</p>
-          <p>тут должена быть форма аутентификации</p>
+          <h3 className={classes.head_text}>
+            Do you have a problem with a missing bike?
+          </h3>
+          <a href="#" className={classes.link_main}>
+            Write to us:
+          </a>
+
+          <h3 className={classes.head_text}>Do you want to join our team?</h3>
+          <a href="#" className={classes.link_main}>
+            Sign up!
+          </a>
         </div>
       </main>
       {/*  <footer className={classes.footer}>

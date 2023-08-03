@@ -4,10 +4,15 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
 ul {
   list-style: none;
 }
 body {
+  min-height: 100%;
   background: #dad7cd;
   background-image: url("iconizer-rectangle51.svg");
   background-size: 600px auto; /* from vh to %*/
@@ -94,7 +99,61 @@ h1 {
   margin-left: 30px;
 }
 
+.link_main {
+  margin-left: 20px;
+  display: inline-block;
+  background: #3a5a40;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.head_text {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 /* не забыть мобильную версию - вставить зеленый велосипед на фон в body или в хидер*/
+
+/*mobile*/
+@media (max-width: 1024px) {
+  body {
+    background-image: url("iconizer-2104434-8bc34a.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .picture {
+    display: none;
+  }
+  .nav_panel {
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .list_page {
+    display: flex;
+    gap: 20px;
+  }
+  .text_main {
+    color: black;
+    font-weight: 500;
+    width: fit-content;
+    margin-left: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .text_main:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  .link_page {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .link_main {
+    margin-left: 15px;
+  }
+}
 
 /*
 footer {
