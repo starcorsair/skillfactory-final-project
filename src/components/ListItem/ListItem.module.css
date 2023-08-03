@@ -1,0 +1,29 @@
+.list_item {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.button_link {
+  padding: 10px 5px;
+  margin-left: 2.3vw;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button_link:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.link {
+  padding: 10px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  .button_link {
+    margin-left: 10vw;
+  }
+}
