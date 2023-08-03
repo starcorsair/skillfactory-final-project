@@ -6,7 +6,7 @@ import { checkAuthentification } from "../Utilities/checkAuthentification";
 import { getOfficers } from "../Utilities/officers";
 import ListItem from "../ListItem/ListItem";
 import classes from "./Officers.module.css";
-import image from "./green_bike.jpg";
+/*import image from "./green_bike.jpg";*/
 
 const Officers = () => {
   const userData = useSelector(user);
@@ -33,10 +33,10 @@ const Officers = () => {
         <p className={classes.error}>Ошибка при получении данных сотрудника</p>
       ) : officerIsLoaded && !errorMessage ? (
         <>
-          <div className={classes.img}>
+          {/*<div className={classes.img}>
             <img src={image} className={classes.photo} />
           </div>
-          <div className={classes.img_filter}></div>
+      <div className={classes.img_filter}></div>*/}
           <div className={classes.officers}>
             <h2 className={classes.heading}>Наши сотрудники</h2>
             <ul className={classes.list}>

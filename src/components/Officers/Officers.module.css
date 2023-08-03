@@ -55,7 +55,7 @@
   height: 100vh;
   object-fit: cover;
 }
-
+/*
 .photo {
   width: 33vw;
   height: 100vh;
@@ -73,7 +73,7 @@
   background: #000;
   opacity: 0.4;
 }
-
+*/
 .list {
   list-style-type: none;
   display: flex;
@@ -104,12 +104,12 @@
 }
 
 @media (max-width: 991.98px) {
-  .img {
+  /* .img {
     display: none;
   }
   .img_filter {
     display: none;
-  }
+  } */
   .officers_section {
     height: fit-content;
   }
