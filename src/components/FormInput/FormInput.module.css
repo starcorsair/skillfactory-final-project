@@ -1,31 +1,30 @@
 .formInput {
   height: 4vh;
-  background-color: rgba(3, 0, 0, 0.7);
+  background-color: #dad7cd;
   border: none;
   width: 15vw;
   margin-top: 2vh;
-  color: white;
+  color: black;
 }
 
 .formInput::placeholder {
-    color: white;
+  color: black;
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    width: 120%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 120%;
+  justify-content: center;
 }
 
 @media (max-width: 991.98px) {
   .formInput {
     width: 90%;
   }
-  
+
   .wrapper {
     width: 90%;
-    justify-content: left
+    justify-content: left;
   }
-  
 }

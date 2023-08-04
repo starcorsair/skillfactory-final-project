@@ -1,0 +1,53 @@
+.form_content {
+  background: #dad7cd;
+  background-image: url("/public/images/iconizer-2104434-8bc34a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.formName {
+  background-color: #344e41;
+  color: white;
+  padding-top: 3vh;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #344e41;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  width: 35%;
+  align-items: center;
+}
+
+.input {
+  height: 50px;
+}
+
+.process_message {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3vh;
+  color: white;
+  background-color: #344e41;
+}
+
+@media (max-width: 991.98px) {
+  .form {
+    margin-top: 4vh;
+    width: 100%;
+  }
+}
