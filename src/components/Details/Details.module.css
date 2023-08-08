@@ -1,15 +1,14 @@
 .section {
-  background-image: url(../../../public/images/form_background.jpg);
+  background-image: url("iconizer-2104434-8bc34a.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 15% 75%;
   height: 100vh;
   width: 99vw;
 }
 
 .card {
-  background-color: rgba(3, 0, 0, 0.5);
-  color: white;
+  background-color: #dad7cd;
+  color: black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5vh;

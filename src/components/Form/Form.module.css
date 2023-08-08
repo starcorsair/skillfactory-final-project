@@ -1,6 +1,5 @@
 .form_content {
   background: #dad7cd;
-  background-image: url("/public/images/iconizer-2104434-8bc34a.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -8,7 +7,7 @@
 }
 
 .formName {
-  background-color: #344e41;
+  background-color: #588157;
   color: white;
   padding-top: 3vh;
   font-size: 18px;
@@ -19,13 +18,14 @@
 .form {
   display: flex;
   flex-direction: column;
-  background-color: #344e41;
+  background-color: #588157;
   color: white;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4vh;
   width: 35%;
   align-items: center;
+  border-radius: 6px;
 }
 
 .input {

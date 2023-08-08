@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import { store } from "./app/store";
 import { Provider } from "react-redux";
-import Main from "./components/Page/Page";
+import Page from "./components/Page/Page";
 import Authentification from "./components/Authentification/Authentification";
 import Officers from "./components/Officers/Officers";
 import OfficersForm from "./components/OfficersForm/OfficersForm";
@@ -21,7 +21,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Page />} />
           <Route path="/login" element={<Authentification type="login" />} />
           <Route
             path="/registration"

@@ -5,10 +5,12 @@
   width: 15vw;
   margin-top: 2vh;
   color: black;
+  outline: none;
 }
 
 .formInput::placeholder {
-  color: black;
+  color: #344e41;
+  padding-left: 2px;
 }
 
 .wrapper {

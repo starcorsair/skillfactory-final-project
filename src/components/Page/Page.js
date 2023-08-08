@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Officers from "../Officers/Officers";
 import Reports from "../Reports/Reports";
 import classes from "./Page.module.css";
@@ -41,7 +42,7 @@ function Page() {
             Напишите нам:
           </Link>
 
-          <h3 className={classes.head_text}>Хотите присоеденитьсч к нам?</h3>
+          <h3 className={classes.head_text}>Хотите присоедениться к нам?</h3>
           <Link to="/registration" className={classes.link_main}>
             Зарегистрируйтесь!
           </Link>
