@@ -18,7 +18,6 @@ body {
   background-size: 600px auto; /* from vh to %*/
   background-position: 100% 0; /*from 70 to 100*/
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 a {

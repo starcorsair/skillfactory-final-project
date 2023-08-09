@@ -1,12 +1,11 @@
 .officers_section {
-  background-color: #dad7cd;
-  position: relative;
+  position: absolute;
   display: flex;
-  height: 100vh;
+  height: max-content;
+  padding-top: 20px;
 }
 
 .officers_page {
-  background-color: #dad7cd;
   margin: 0px;
 }
 

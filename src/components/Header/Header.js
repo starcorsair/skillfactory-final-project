@@ -6,6 +6,9 @@ function Header() {
   return (
     <div className={classes.header}>
       <div className={classes.nav}>
+        <Link to="/" className={classes.header_link}>
+          На главную
+        </Link>
         <Link to="/login" className={classes.header_link}>
           Войти
         </Link>

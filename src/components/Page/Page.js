@@ -47,9 +47,10 @@ function Page() {
             Зарегистрируйтесь!
           </Link>
         </div>
-        <Officers />
-        <Reports />
       </main>
+
+      <Officers />
+      <Reports />
     </div>
   );
 }
