@@ -10,8 +10,8 @@
 .header_link {
   margin-top: 0px;
   padding-top: 10px;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   color: black;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -19,7 +19,8 @@
 }
 
 .header_link:hover {
-  transform: scale(1.1);
+  color: #3a5a40;
+  transition: 2s;
 }
 
 .logo {

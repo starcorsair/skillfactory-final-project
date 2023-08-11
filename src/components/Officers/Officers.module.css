@@ -2,7 +2,9 @@
   position: absolute;
   display: flex;
   height: max-content;
-  padding-top: 20px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #dad7cd;
 }
 
 .officers_page {
@@ -38,9 +40,8 @@
   flex-direction: column;
   width: 66vw;
   margin-top: 0px;
-  margin-right: 30vw;
+  margin-left: 20px;
   color: #344e41;
-  align-items: center;
 }
 
 .heading {
@@ -49,16 +50,9 @@
   letter-spacing: 0.1rem;
 }
 
-.img {
-  width: 33vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
 .list {
   list-style-type: none;
   display: flex;
-  flex-flow: column wrap;
   max-height: 88vh;
 }
 

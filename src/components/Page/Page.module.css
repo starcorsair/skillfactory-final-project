@@ -14,10 +14,15 @@ ul {
 body {
   min-height: 100%;
   background: #dad7cd;
+}
+
+.wrap {
+  min-height: 100vh;
   background-image: url("iconizer-rectangle51.svg");
-  background-size: 600px auto; /* from vh to %*/
-  background-position: 100% 0; /*from 70 to 100*/
+  background-size: 600px auto;
+  background-position: 100% 0;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 a {
@@ -26,8 +31,14 @@ a {
 .app {
   position: relative;
   /*
-  width: 100vw;
-  height: 100vh;
+
+  min-height: 100vh;
+
+  background-image: url("iconizer-rectangle51.svg");
+  background-size: 600px 100%; 
+  background-position: 100% 0; 
+  background-repeat: no-repeat;*/
+  /*
   background-image: url("iconizer-rectangle51.svg");
   background-size: 50%; from vh to %
   background-position: 100% 0; from 70 to 100
@@ -37,7 +48,7 @@ a {
 
 .picture {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   background-image: url("bike22.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -72,14 +83,19 @@ h1 {
 .link_page {
   color: black;
   font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  transition: 2s;
 }
 
 .link_page:hover {
   color: #3a5a40;
+  transition: 2s;
 }
 
 .main {
   margin-top: 20px;
+  z-index: 2;
 }
 
 .text_main {
@@ -115,7 +131,7 @@ h1 {
 
 /*mobile*/
 @media (max-width: 1024px) {
-  body {
+  .wrap {
     background-image: url("iconizer-2104434-8bc34a.svg");
     background-size: cover;
     background-repeat: no-repeat;

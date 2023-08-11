@@ -2,14 +2,13 @@
   background-color: #3a5a40;
   color: white;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   width: 43%;
   height: 5vh;
   margin-top: 2vh;
   margin-bottom: 3vh;
   font-size: 16px;
   letter-spacing: 0.1em;
-  text-shadow: 1px 1px 2px black;
   margin-left: auto;
   margin-right: auto;
 }
@@ -17,4 +16,5 @@
 .button_delete:hover {
   background-color: #588157;
   cursor: pointer;
+  transition: 2s;
 }
